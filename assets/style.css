@@ -86,7 +86,7 @@ body {
 
 .display__input:focus,
 .display__input:focus-visible {
-    outline: none;
+    outline: var(--color-red) 2px solid;
 }
 
 input::-webkit-outer-spin-button,
